@@ -1,113 +1,62 @@
-# Freelance Portfolio
+# Bora Kostadinovic - Portfolio
 
-Professional portfolio landing page showcasing browser-based tools and web development projects.
+Full-stack developer specializing in emergency fixes, project completion, and custom tools.
 
-🔗 **Live Demo:** [bora-portfolio.netlify.app](https://bora-portfolio.netlify.app)
+## About
 
----
+I rescue broken projects and fix critical bugs. With a civil engineering background and comprehensive training through freeCodeCamp and Harvard CS50, I solve technical problems businesses can't afford to ignore.
 
-## 📁 Project Structure
+## Services
 
-```
-freelance-portfolio/
-├── index.html
-├── css/
-│   └── portfolio.css
-├── js/
-│   └── smooth-scroll.js
-└── README.md
-```
+- **Emergency Fixes** (€300-800) - Form broken? Plugin crashed? I diagnose and fix fast.
+- **Project Completion** (€500-1500) - Previous developer disappeared? I'll finish what they started.
+- **Custom Tools** (€400-1200) - Need automation or internal systems? I build practical solutions.
 
----
+## Tech Stack
 
-## ✨ Features
+- **Frontend:** HTML5, CSS3, JavaScript, React
+- **Backend:** Node.js, Express
+- **Tools:** Git, GitHub, VS Code
+- **Integration:** Formspree, Chart.js, Local Storage APIs
 
-- Hero section with stats
-- 3 featured projects with live demos & GitHub links
-- Skills organized by category
-- Contact section (Upwork, Fiverr, Email, GitHub)
-- Smooth scrolling navigation
-- Fully responsive
-- No dependencies
+## Projects
 
----
+### 1. Contact Form Rescue Kit
+Built a complete rescue system for businesses whose contact forms stopped working. Includes spam protection, email delivery fixes, and submission backup.
 
-## 🚀 Deployment
+**Tech:** React, Node.js, Formspree
 
-### GitHub
+### 2. Dashboard Completion Tool
+Completed a half-built analytics dashboard another developer left unfinished. Fixed broken charts, corrupted CSV exports, and non-functional filters.
 
+**Tech:** React, Chart.js, CSV parsing
+
+### 3. AI Prompt Library
+Created a lightweight prompt management system for organizing 300+ prompts. No monthly fees, no API lock-in - just a fast, searchable library.
+
+**Tech:** Vanilla JavaScript, Local Storage
+
+## Contact
+
+- **Fiverr:** [View My Gigs](https://www.fiverr.com/s/akAojWg)
+- **Upwork:** [Hire Me on Upwork](https://www.upwork.com/freelancers/~0131475cd060f3f7ea)
+- **GitHub:** [github.com/bKostadinovic](https://github.com/bKostadinovic)
+
+## Local Development
+
+1. Clone this repository
 ```bash
-git init
-git add .
-git commit -m "Initial portfolio"
-git remote add origin https://github.com/bKostadinovic/freelance-portfolio.git
-git branch -M main
-git push -u origin main
+git clone https://github.com/bKostadinovic/portfolio.git
 ```
 
-### Netlify
+2. Open `index.html` in your browser
 
-1. Go to [netlify.com](https://netlify.com)
-2. "Add new site" → "Import an existing project"
-3. Choose GitHub → Select `freelance-portfolio`
-4. Click "Deploy site"
-5. Optional: Customize domain in settings
+No build process required - this is a static site.
 
----
+## Deployment
 
-## 🎨 Customization
+This site is deployed on Netlify. Any push to the main branch automatically triggers a new deployment.
 
-### Update Contact Links
+## License
 
-In `index.html` around line 280:
-
-```html
-<!-- Add your Upwork URL -->
-<a href="#" class="contact-link">View Profile →</a>
-
-<!-- Add your Fiverr URL -->
-<a href="#" class="contact-link">Browse Gigs →</a>
-
-<!-- Add your email -->
-<a href="mailto:your.email@example.com" class="contact-link">Get In Touch →</a>
-```
-
-### Change Colors
-
-In `css/portfolio.css` lines 15-25:
-
-```css
-:root {
-    --primary: #2563eb;
-    --secondary: #10b981;
-    --accent: #f59e0b;
-}
-```
-
-### Add New Project
-
-Copy a `.project-card` div in `index.html` and update:
-- Icon emoji
-- Title & description
-- Feature tags
-- Live demo link
-- GitHub repo link
-
----
-
-## 🔧 Built With
-
-- HTML5
-- CSS3 (Grid, Flexbox, CSS Variables)
-- Vanilla JavaScript (ES6+)
-- Zero dependencies
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-**Built by Bora Kostadinovic** | [GitHub](https://github.com/bKostadinovic)
+© 2025 Bora Kostadinovic. All rights reserved.
